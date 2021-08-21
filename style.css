@@ -39,7 +39,7 @@ ul li::before {
     padding: 16px;
     text-decoration: none;
     font-weight: 300;
-    font-size: 1.3vw;
+    font-size: 1em;
 }
 
 .sidebar a:active {
@@ -96,9 +96,10 @@ footer.content {
 
 h1 {
     font-size: 32px;
-    line-height: 10px;
+    line-height: 30px;
     color: #7954A1;
     font-family: 'Dancing Script', cursive;
+    overflow-wrap: break-word;
 }
 
 #bio h3 {
@@ -169,6 +170,7 @@ h1 {
 /* Experience */
 #experience {
     padding: 20px;
+    padding-right: 50px;
     margin-bottom: 100px;
     background-color: #fff;
     border-radius: 5px;
@@ -195,7 +197,7 @@ h1 {
     padding-left: 15px;
     list-style: none;
     line-height: 20px;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .work-experience {
@@ -253,6 +255,7 @@ h1 {
 /* Education */
 #education {
     padding: 20px;
+    padding-right: 50px;
     margin-bottom: 100px;
     background-color: #fff;
     border-radius: 5px;
@@ -265,22 +268,22 @@ h1 {
 
  #education h3 {
     line-height: 19.2px;
-    margin-left: 70px;
+    margin-left: 60px;
     color: #C55FFC;
 }
 
 #education p {
     font-size: 14px;
     color: #EFDCF9;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 #education ul {
-    margin-left: 70px;
+    margin-left: 60px;
     padding-left: 15px;
     list-style: none;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 13.5px;
 }
 
 /* .dot-3 {
@@ -309,6 +312,7 @@ h1 {
 /* Skills*/
 #skills {
     padding: 20px;
+    padding-right: 50px;
     margin-bottom: 100px;
     background-color: white;
     border-radius: 5px;
@@ -321,16 +325,17 @@ h1 {
 }
 
 .skills ul {
-    margin-left: 80px;
+    margin-left: 60px;
     padding-left: 15px;
     list-style: none;
     line-height: 25px;
-    font-size: 15px;
+    font-size: 13.5px;
 }
 
 /* Coding Proficiency*/
  #coding-proficiency {
     padding: 20px;
+    padding-right: 50px;
     margin-bottom: 80px;
     background-color: #fff;
     border-radius: 5px;
@@ -338,13 +343,13 @@ h1 {
 }
 
 #coding-proficiency ul {
-    margin-left: 80px;
+    margin-left: 50px;
     padding-left: 15px;
     list-style: none;
     line-height: 60px; 
     position: relative;
     bottom: 20px;
-    font-size: 14px;
+    font-size: 13.5px;
 }
 
 .html-outer, .css-outer, .js-outer {
@@ -391,6 +396,7 @@ h1 {
 /* Certification */
 #certification {
     padding: 20px;
+    padding-right: 50px;
     background-color: #fff;
     margin-bottom: 100px;
     border-radius: 5px;
@@ -398,11 +404,11 @@ h1 {
 }
 
 #certification ul {
-    margin-left: 80px;
+    margin-left: 60px;
     padding-left: 15px;
     list-style-type: circle;
-    line-height: 30px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 13.5px;
 }
 
 /* Sponsors */
@@ -440,6 +446,6 @@ h1 {
 
 @media only screen and (max-width: 965px) {
     .sidebar a {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 }

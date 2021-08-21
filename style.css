@@ -1,13 +1,14 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    color: #323E42;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%);
+    background-color: #EFDCF9;
+    /* background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%); */
 }
 
 ul li::before {
@@ -21,8 +22,8 @@ ul li::before {
 
 /* Sidebar */
 .sidebar {
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%);
+    background-color: #323E42;
+    /* background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%); */
     width: 180px;
     margin: 0;
     padding: 0;
@@ -38,21 +39,22 @@ ul li::before {
     padding: 16px;
     text-decoration: none;
     font-weight: 300;
+    font-size: 1.3vw;
 }
 
 .sidebar a:active {
     background-color: #fff;
-    color: #861657
+    color: #323E42;
 }
 
 .sidebar a:hover {
     background-color: #fff;
-    color: #861657
+    color:  #323E42;
 }
 
 #slack-name {
     font-size: 36px;
-    color: #861657;
+    color: #EFDCF9;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
 }
@@ -63,7 +65,7 @@ ul li::before {
     vertical-align: middle;
     margin-left: 10px;
     font-size: 28px;
-    color: #861657;
+    color: #7954A1;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -91,7 +93,7 @@ footer.content {
 h1 {
     font-size: 32px;
     line-height: 10px;
-    color: #861657;
+    color: #7954A1;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -103,7 +105,7 @@ h1 {
 
 #bio p {
     font-size: 15px;
-    color: #fff;
+    color: #323E42;
     line-height: 22.5px;
     font-weight: 500;
 }
@@ -133,22 +135,22 @@ h1 {
     padding: 5px;
     border: 1px solid white;
     color: white;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%);
+    background-color: #7954A1;
+    /* background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%); */
     position: relative;
     margin: 0px 10px;
 }
 
 .fas:hover, .fab:hover {
     background-color: #fff;
-    color: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    color: #7954A1;
     box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.315);
 }
 
 .cv-link {
     text-decoration: none;
     color: white;
-    background-color: #a88beb;
+    background-color:#323E42;
     padding: 10px;
     border-radius: 5px;
     position: relative;
@@ -156,7 +158,7 @@ h1 {
 }
 
 .cv-link:hover {
-    color: violet;
+    color: #C55FFC;
     background-color: white;
     box-shadow: 5px 3px 5px 5px rgba(0, 0, 0, 0.315);
 }
@@ -170,19 +172,19 @@ h1 {
 }
 
 #experience h3 {
-    color: #f8ceec;
+    color: #C55FFC;
     line-height: 19.2px;
 }
 
 #experience p {
     font-size: 14px;
-    color:#a88beb;
+    color:#EFDCF9;
 }
 
 #experience h4 {
     font-size: 15px;
     line-height: 16px;
-    color: #a88beb;
+    color: #EFDCF9;
 }
 
 #experience ul {
@@ -198,15 +200,15 @@ h1 {
     flex-wrap: wrap;
 }
 
-.dot-1 {
+/* .dot-1 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #861657;
     display: block;
-    position: relative;
-    top: 23px;
-    left: 2px;
+    position: absolute;
+    top: ;
+    left: ;
     z-index: 100;
 }
 
@@ -220,12 +222,10 @@ h1 {
     top: 23px;
     right: 6px;
     z-index: 100;
-}
-
+} 
 .line-1 {
     width: 1px;
     height: 150px;
-    /* border-radius: 50%; */
     background-color: black;
     display: block;
     position: relative;
@@ -237,15 +237,14 @@ h1 {
 .line-2 {
     width: 1px;
     height: 150px;
-    /* border-radius: 50%; */
     background-color: black;
     display: block;
     position: relative;
     top: 25px;
-    /* left: 5px; */
     right: 35px;
     z-index: 50;
-}
+}*/
+
 
 /* Education */
 #education {
@@ -263,12 +262,12 @@ h1 {
  #education h3 {
     line-height: 19.2px;
     margin-left: 70px;
-    color: #f8ceec;
+    color: #C55FFC;
 }
 
 #education p {
     font-size: 14px;
-    color: #a88beb;
+    color: #EFDCF9;
     margin-left: 70px;
 }
 
@@ -280,7 +279,7 @@ h1 {
     font-size: 14px;
 }
 
-.dot-3 {
+/* .dot-3 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -295,14 +294,13 @@ h1 {
  .line-3 {
     width: 1px;
     height: 120px;
-    /* border-radius: 50%; */
    background-color: black;
     display: block;
     position: relative;
     top: 25px;
     left: 15px;
     z-index: 90;
-} 
+}  */
 
 /* Skills*/
 #skills {
@@ -315,6 +313,7 @@ h1 {
 
 .skills {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skills ul {
@@ -345,7 +344,7 @@ h1 {
 }
 
 .html-outer, .css-outer, .js-outer {
-    width: 300px;
+    width: 75%;
     height: 20px;
     background-color: lightgrey;
     border-radius: 5px;
@@ -355,8 +354,8 @@ h1 {
     display: block;
     width: 90%;
     height: inherit;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%);
+    background-color:#323E42;
+    /* background-image: linear-gradient(315deg, #a88beb 0%, #f8ceec 74%); */
     border-radius: 5px;
 }
 
@@ -364,6 +363,7 @@ h1 {
     position: relative;
     bottom: 20px;
     left: 85%;
+    margin: auto;
     color: white;
 }
 
@@ -416,7 +416,9 @@ h1 {
 #sponsors img {
     display: block;
     position: relative;
-    width: 25%;
+    width: 100%;
+    height: auto;
+    max-width: 30%;
     margin: auto;
 }
 
@@ -429,5 +431,11 @@ h1 {
 @media only screen and (max-width: 1350px) {
     .dot-1, .dot-2, .line-1, .line-2 {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+    .sidebar a {
+        font-size: 2vw;
     }
 }
